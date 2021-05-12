@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WordPress Application Automation Test Suite">
+  
+  <listeners>
+  	<listener class-name="com.aweber.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  
+  <test name="Wordpress MyProfile Test Cases">
+      <classes>
+      <class name="com.aweber.qa.tests.MyProfilePageTest"/>
+      </classes>
+  </test>
+</suite>
